@@ -60,8 +60,8 @@ export const SplashScreen = (props: any) => {
       useEffect(() => {
         CodePush.sync(
           {
-            deploymentKey:"a7R2PY-TRgT0kgfsd8V0sieBW0Fx9jKRcYLwi"//android staging
-            // deploymentKey:"t9Qyfw8jNzqsIQgh3k5rb1Sh1a3K24vMGLqoe"//ios STAGING
+            // deploymentKey:"a7R2PY-TRgT0kgfsd8V0sieBW0Fx9jKRcYLwi"//android staging
+            deploymentKey:"t9Qyfw8jNzqsIQgh3k5rb1Sh1a3K24vMGLqoe"//ios STAGING
           },
           codePushStatusDidChange, null
         );
