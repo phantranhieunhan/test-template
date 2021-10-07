@@ -352,6 +352,8 @@ PODS:
     - React-cxxreact (= 0.64.2)
     - React-jsi (= 0.64.2)
     - React-perflogger (= 0.64.2)
+  - ReactNativeGetLocation (2.1.2):
+    - React
   - RNCAsyncStorage (1.12.1):
     - React-Core
   - RNDeviceInfo (8.3.3):
@@ -360,6 +362,8 @@ PODS:
     - React
   - RNGestureHandler (1.10.3):
     - React-Core
+  - RNQrGenerator (1.1.7):
+    - React
   - RNScreens (3.7.2):
     - React-Core
     - React-RCTImage
@@ -371,6 +375,8 @@ PODS:
   - RNVectorIcons (8.1.0):
     - React-Core
   - SSZipArchive (2.2.3)
+  - TouchID (4.4.1):
+    - React
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -433,13 +439,16 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - React-runtimeexecutor (from `../node_modules/react-native/ReactCommon/runtimeexecutor`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - ReactNativeGetLocation (from `../node_modules/react-native-get-location`)
   - "RNCAsyncStorage (from `../node_modules/@react-native-community/async-storage`)"
   - RNDeviceInfo (from `../node_modules/react-native-device-info`)
   - RNFS (from `../node_modules/react-native-fs`)
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
+  - RNQrGenerator (from `../node_modules/rn-qr-generator`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - RNSound (from `../node_modules/react-native-sound`)
   - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
+  - TouchID (from `../node_modules/react-native-touch-id`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -535,6 +544,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/runtimeexecutor"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  ReactNativeGetLocation:
+    :path: "../node_modules/react-native-get-location"
   RNCAsyncStorage:
     :path: "../node_modules/@react-native-community/async-storage"
   RNDeviceInfo:
@@ -543,12 +554,16 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-fs"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
+  RNQrGenerator:
+    :path: "../node_modules/rn-qr-generator"
   RNScreens:
     :path: "../node_modules/react-native-screens"
   RNSound:
     :path: "../node_modules/react-native-sound"
   RNVectorIcons:
     :path: "../node_modules/react-native-vector-icons"
+  TouchID:
+    :path: "../node_modules/react-native-touch-id"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -565,7 +580,7 @@ SPEC CHECKSUMS:
   CodePush: 71915cd671d09614848cd5515f71d9cb4e88b3f7
   DoubleConversion: cf9b38bf0b2d048436d9a82ad2abe1404f11e7de
   FBLazyVector: e686045572151edef46010a6f819ade377dfeb4b
-  FBReactNativeSpec: 4fd7d973e3839b8ff9f57b9dfbdee878065fa096
+  FBReactNativeSpec: bf959bb5a968ce27ab148cb6fba7a1bfbf43b0d5
   Flipper: d3da1aa199aad94455ae725e9f3aa43f3ec17021
   Flipper-DoubleConversion: 38631e41ef4f9b12861c67d17cb5518d06badc41
   Flipper-Folly: 755929a4f851b2fb2c347d533a23f191b008554c
@@ -604,17 +619,20 @@ SPEC CHECKSUMS:
   React-RCTVibration: 24600e3b1aaa77126989bc58b6747509a1ba14f3
   React-runtimeexecutor: a9904c6d0218fb9f8b19d6dd88607225927668f9
   ReactCommon: 149906e01aa51142707a10665185db879898e966
+  ReactNativeGetLocation: c3ff06b22e5873ca97199b4ddfcbc7140d4e00f0
   RNCAsyncStorage: b03032fdbdb725bea0bd9e5ec5a7272865ae7398
   RNDeviceInfo: cc7de0772378f85d8f36ae439df20f05c590a651
   RNFS: 3ab21fa6c56d65566d1fb26c2228e2b6132e5e32
   RNGestureHandler: a479ebd5ed4221a810967000735517df0d2db211
+  RNQrGenerator: 86fb623932ed29627c6a95b8dc94af5e93d8abe1
   RNScreens: 0591543e343c7444ea1756b6265d81a4295922c9
   RNSound: 27e8268bdb0a1f191f219a33267f7e0445e8d62f
   RNVectorIcons: 31cebfcf94e8cf8686eb5303ae0357da64d7a5a4
   SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
+  TouchID: ba4c656d849cceabc2e4eef722dea5e55959ecf4
   Yoga: 575c581c63e0d35c9a83f4b46d01d63abc1100ac
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 0ba022085caed201b602aa04cb544f527a287a00
+PODFILE CHECKSUM: 7c00610a50205d522e8bde1d678ce63de6f73c56
 
 COCOAPODS: 1.10.2
